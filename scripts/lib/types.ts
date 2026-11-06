@@ -44,6 +44,23 @@ export interface SheetItem {
   note: string;
 }
 
+export interface Post {
+  name: string;
+  id: string;
+}
+
+export interface PostOptions {
+  theme: string;
+  lang: string;
+  timezone: string;
+}
+
+export interface Shot {
+  file: string;
+  width: number;
+  height: number;
+}
+
 export interface ImageSize {
   width: number;
   height: number;
