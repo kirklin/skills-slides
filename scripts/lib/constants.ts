@@ -41,9 +41,14 @@ export const CANVAS_WIDTH = 1920;
 export const CANVAS_HEIGHT = 1080;
 export const SCALE = 2;
 
+// Image viewers shrink pictures whose longer side exceeds this, so the summary sheet stays within it.
+export const MAX_IMAGE_SIDE = 16384;
+
 export const DEFAULT_CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
 
 export const SAFE_AREA_VARIABLES = ["--safe-top", "--safe-right", "--safe-bottom", "--safe-left"] as const;
+
+export const SHEET_NAME = "汇总.png";
 
 export const MIN_PLACEHOLDER_LENGTH = 4;
 

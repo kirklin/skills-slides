@@ -25,6 +25,25 @@ export interface CheckOptions {
   placeholders?: boolean;
 }
 
+export interface DocImage {
+  src: string;
+  title: string;
+  place: string;
+  number: string;
+}
+
+export interface ExportResult {
+  files: string[];
+  sheet: string;
+}
+
+export interface SheetItem {
+  file: string;
+  number: string;
+  title: string;
+  note: string;
+}
+
 export interface ImageSize {
   width: number;
   height: number;

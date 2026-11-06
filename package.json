@@ -13,6 +13,7 @@
     "test": "vitest run"
   },
   "dependencies": {
+    "marked": "catalog:prod",
     "puppeteer-core": "catalog:prod"
   },
   "devDependencies": {
