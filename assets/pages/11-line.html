@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main class="slide line">
+  <header class="head">
+    <p class="eyebrow">折线图</p>
+    <h1 class="headline">指标一在 8 个月内持续上升。</h1>
+    <p class="body">指标一比 1月提高 64%，指标二提高 11%。</p>
+  </header>
+  <div class="content">
+    <div class="legend">
+      <span><i class="s1"></i>指标一</span>
+      <span><i class="s2"></i>指标二</span>
+    </div>
+    <div class="plot">
+      <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+        <line class="grid" x1="0" y1="0" x2="100" y2="0"></line>
+        <line class="grid" x1="0" y1="25" x2="100" y2="25"></line>
+        <line class="grid" x1="0" y1="50" x2="100" y2="50"></line>
+        <line class="grid" x1="0" y1="75" x2="100" y2="75"></line>
+        <line class="grid" x1="0" y1="100" x2="100" y2="100"></line>
+        <polyline class="s2" points="0,66 14.29,64 28.57,63 42.86,61 57.14,60 71.43,58 85.71,57 100,55"></polyline>
+        <polyline class="s1" points="0,84 14.29,76 28.57,71 42.86,62 57.14,52 71.43,41 85.71,32 100,20"></polyline>
+      </svg>
+      <i class="point s2" style="left: 100%; top: 55%"></i>
+      <i class="point s1" style="left: 100%; top: 20%"></i>
+      <span class="label" style="left: 100%; top: 20%">+64%</span>
+      <span class="label" style="left: 100%; top: 55%">+11%</span>
+    </div>
+    <div class="axis">
+      <span style="left: 0%">1月</span>
+      <span style="left: 14.29%">2月</span>
+      <span style="left: 28.57%">3月</span>
+      <span style="left: 42.86%">4月</span>
+      <span style="left: 57.14%">5月</span>
+      <span style="left: 71.43%">6月</span>
+      <span style="left: 85.71%">7月</span>
+      <span style="left: 100%">8月</span>
+    </div>
+  </div>
+  <footer class="foot">单位：单位名称；变化按 1月的数值计算</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main class="slide gantt">
+  <header class="head">
+    <p class="eyebrow">甘特图</p>
+    <h1 class="headline">26 周内全部完成。</h1>
+    <p class="body">任务依次进行，每个任务完成后有 3 周观察期，观察期内同时开始下一个任务。</p>
+  </header>
+  <div class="content">
+    <div class="legend">
+      <span><i class="s1"></i>开发</span>
+      <span><i class="spare"></i>余量</span>
+      <span><i class="wait"></i>观察期</span>
+    </div>
+    <div class="marks">
+      <span style="left: 86.67%">全部完成</span>
+      <span style="left: 96.67%">观察结束</span>
+    </div>
+    <div class="rows">
+      <div class="lines">
+        <i style="left: 0%"></i>
+        <i style="left: 16.67%"></i>
+        <i style="left: 33.33%"></i>
+        <i style="left: 50%"></i>
+        <i style="left: 66.67%"></i>
+        <i style="left: 83.33%"></i>
+        <i style="left: 100%"></i>
+        <i class="milestone" style="left: 86.67%"></i>
+        <i class="milestone" style="left: 96.67%"></i>
+      </div>
+      <div class="row">
+        <div class="label">任务一<small>第 1 到 5 周</small></div>
+        <div class="track">
+          <i class="bar s1" style="left: 0%; width: 16.67%">5 周</i>
+          <i class="bar wait" style="left: calc(16.67% + 2px); width: calc(10% - 2px)">观察期</i>
+        </div>
+      </div>
+      <div class="row">
+        <div class="label">任务二<small>第 6 到 8 周</small></div>
+        <div class="track">
+          <i class="bar s1" style="left: 16.67%; width: 10%">3 周</i>
+          <i class="bar wait" style="left: calc(26.67% + 2px); width: calc(10% - 2px)">观察期</i>
+        </div>
+      </div>
+      <div class="row">
+        <div class="label">任务三<small>第 9 到 22 周</small></div>
+        <div class="track">
+          <i class="bar s1 join" style="left: 26.67%; width: 40%">12 周</i>
+          <i class="bar spare" style="left: calc(66.67% + 2px); width: calc(6.67% - 2px)">余量</i>
+          <i class="bar wait" style="left: calc(73.33% + 2px); width: calc(10% - 2px)">观察期</i>
+        </div>
+      </div>
+      <div class="row">
+        <div class="label">任务四<small>最晚第 23 到 26 周</small></div>
+        <div class="track">
+          <i class="bar s1" style="left: 73.33%; width: 13.33%">4 周</i>
+          <i class="bar wait" style="left: calc(86.67% + 2px); width: calc(10% - 2px)">观察期</i>
+        </div>
+      </div>
+    </div>
+    <div class="ticks">
+      <span style="left: 0%">开始</span>
+      <span style="left: 16.67%">5 周</span>
+      <span style="left: 33.33%">10 周</span>
+      <span style="left: 50%">15 周</span>
+      <span style="left: 66.67%">20 周</span>
+      <span style="left: 83.33%">25 周</span>
+      <span style="left: 100%">30 周</span>
+    </div>
+    <div class="steps">
+      <span class="pill">梳理</span><b>›</b><span class="pill">设计</span><b>›</b><span class="pill">开发</span><b>›</b><span class="pill">测试</span><b>›</b><span class="pill">验收</span><b>›</b><span class="pill">上线</span>
+    </div>
+  </div>
+  <footer class="foot">起止周按各任务的时长和先后顺序计算；余量为计划中预留的时间</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main class="slide donut">
+  <header class="head">
+    <p class="eyebrow">环形图</p>
+    <h1 class="headline">将近一半来自第一类。</h1>
+    <p class="body">第一类占 45%，第二类和第三类合计 43%。</p>
+  </header>
+  <div class="content">
+    <figure class="ring">
+      <svg viewBox="0 0 200 200">
+        <circle class="track" cx="100" cy="100" r="80" pathLength="100"></circle>
+        <circle class="s1" cx="100" cy="100" r="80" pathLength="100" stroke-dasharray="44 56" stroke-dashoffset="0"></circle>
+        <circle class="s2" cx="100" cy="100" r="80" pathLength="100" stroke-dasharray="24 76" stroke-dashoffset="-45"></circle>
+        <circle class="s3" cx="100" cy="100" r="80" pathLength="100" stroke-dasharray="17 83" stroke-dashoffset="-70"></circle>
+        <circle class="s4" cx="100" cy="100" r="80" pathLength="100" stroke-dasharray="11 89" stroke-dashoffset="-88"></circle>
+      </svg>
+      <figcaption><b>100%</b><small>总数的说明</small></figcaption>
+    </figure>
+    <ul class="parts">
+      <li class="s1"><i></i><b>45%</b><span>第一类<small>第一类的说明</small></span></li>
+      <li class="s2"><i></i><b>25%</b><span>第二类<small>第二类的说明</small></span></li>
+      <li class="s3"><i></i><b>18%</b><span>第三类<small>第三类的说明</small></span></li>
+      <li class="s4"><i></i><b>12%</b><span>其他<small>其余类别的合计</small></span></li>
+    </ul>
+  </div>
+</main>
+</body>
+</html>

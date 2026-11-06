@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main class="slide code">
+  <header class="head">
+    <p class="eyebrow">代码</p>
+    <h1 class="headline">三行代码完成汇总。</h1>
+    <p class="body">函数一次返回数量、合计和显示用的文字。</p>
+  </header>
+  <div class="content">
+    <ul class="points">
+      <li><b>要点一</b><small>第一行代码的作用</small></li>
+      <li><b>要点二</b><small>第二行代码的作用</small></li>
+      <li><b>要点三</b><small>第三行代码的作用</small></li>
+    </ul>
+    <pre translate="no"><code><span class="c">// 汇总列表中的全部条目</span>
+<span class="k">export function</span> <span class="f">summarize</span>(items: <span class="t">Item</span>[]): <span class="t">Summary</span> {
+  <span class="k">const</span> total = items.<span class="f">reduce</span>((sum, item) => sum + item.value, <span class="s">0</span>);
+  <span class="k">const</span> label = <span class="s">`共 ${items.length} 项`</span>;
+  <span class="k">return</span> { count: items.length, total, label };
+}</code></pre>
+  </div>
+</main>
+</body>
+</html>

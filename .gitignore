@@ -1,0 +1,34 @@
+# Dependencies and caches
+node_modules/
+.eslintcache
+coverage/
+
+# Render output
+assets/styles/*/out/
+scripts/fixtures/*/out/
+
+# Editors and OS files
+.idea
+.vscode/
+.DS_Store
+**/.DS_Store
+*.sw?
+
+# Secrets and signing material
+.env
+.env.*
+*.pfx
+*.p12
+*.pem
+*.cer
+*.key
+*.jks
+*.keystore
+keystore.properties
+
+# Local drafts
+BRIEF.md
+NOTES.md
+TODO.md
+*.draft.md
+notes/
