@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../../../assets/styles/launch-dark/style.css">
+<style>
+  .card { position: absolute; left: 128px; top: 420px; width: 300px; height: 80px; padding: 20px; border-radius: 24px; background: var(--card); font-size: 22px; white-space: nowrap; }
+  .clip { position: absolute; left: 500px; top: 420px; width: 200px; height: 40px; overflow: hidden; font-size: 22px; white-space: nowrap; }
+  .narrow { position: absolute; left: 760px; top: 420px; width: 230px; font-size: 22px; line-height: 1.5; }
+  .vline { position: absolute; left: 1100px; top: 400px; height: 200px; border-left: 2px dashed rgba(255, 255, 255, 0.35); }
+  .label { position: absolute; left: 1040px; top: 480px; font-size: 24px; }
+  .edge { position: absolute; left: 40px; top: 700px; font-size: 22px; }
+  .low { position: absolute; left: 128px; top: 1040px; font-size: 22px; }
+  .shot { position: absolute; left: 1300px; top: 700px; width: 200px; }
+  .ok { position: absolute; left: 128px; top: 800px; font-size: 22px; }
+</style>
+</head>
+<body>
+<div class="slide">
+  <div class="eyebrow">检查脚本的反例</div>
+  <h1 class="headline">第1周上线,共 3~5 人。</h1>
+  <p class="body">这里有个空格 在中间，标点 ，前面多了空格；我们要落地而是闭环。</p>
+</div>
+<div class="card">这一段文字太长了，会超出卡片的右边</div>
+<div class="clip">这一段文字会被容器裁切掉一部分</div>
+<div class="narrow">这一段文字最后剩一个字</div>
+<div class="vline"></div>
+<div class="label">虚线从这几个字中间穿过</div>
+<div class="edge">这段文字贴着左边</div>
+<div class="low">这段文字低于页脚</div>
+<img class="shot" src="assets/posts/missing.png">
+<div class="ok">品牌名照原样写：<span translate="no">示例100</span>和全栈开发工程师</div>
+</body>
+</html>

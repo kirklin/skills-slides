@@ -1,0 +1,86 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`checkPages > reports every kind of problem on the bad page 1`] = `
+[
+  {
+    "kind": "中文和英文、数字之间缺空格",
+    "match": "第1",
+    "text": "第1周上线,共 3~5 人。",
+  },
+  {
+    "kind": "中文旁边用了半角标点",
+    "match": "线,",
+    "text": "第1周上线,共 3~5 人。",
+  },
+  {
+    "kind": "范围要写成「到」",
+    "match": "3~5",
+    "text": "第1周上线,共 3~5 人。",
+  },
+  {
+    "kind": "汉字之间多了空格",
+    "match": "格 在",
+    "text": "这里有个空格 在中间，标点 ，前面多了空格；我们要落地而是闭环。",
+  },
+  {
+    "kind": "全角标点旁边多了空格",
+    "match": " ，",
+    "text": "这里有个空格 在中间，标点 ，前面多了空格；我们要落地而是闭环。",
+  },
+  {
+    "kind": "不用的词",
+    "match": "落地",
+    "text": "这里有个空格 在中间，标点 ，前面多了空格；我们要落地而是闭环。",
+  },
+  {
+    "kind": "不用的词",
+    "match": "而是",
+    "text": "这里有个空格 在中间，标点 ，前面多了空格；我们要落地而是闭环。",
+  },
+  {
+    "kind": "不用的词",
+    "match": "闭环",
+    "text": "这里有个空格 在中间，标点 ，前面多了空格；我们要落地而是闭环。",
+  },
+  {
+    "kind": "文字超出卡片",
+    "match": undefined,
+    "text": "这一段文字太长了，会超出卡片的右边",
+  },
+  {
+    "kind": "文字被裁切",
+    "match": undefined,
+    "text": "这一段文字会被容器裁切掉一部分",
+  },
+  {
+    "kind": "线穿过文字",
+    "match": undefined,
+    "text": "虚线从这几个字中间穿过",
+  },
+  {
+    "kind": "文字超出四周的边距",
+    "match": undefined,
+    "text": "这段文字贴着左边",
+  },
+  {
+    "kind": "文字超出四周的边距",
+    "match": undefined,
+    "text": "这段文字低于页脚",
+  },
+  {
+    "kind": "最后一行只有一个字",
+    "match": undefined,
+    "text": "这一段文字最后剩一个字",
+  },
+  {
+    "kind": "图片没有加载出来",
+    "match": undefined,
+    "text": "assets/posts/missing.png",
+  },
+  {
+    "kind": "页面里写了样式",
+    "match": undefined,
+    "text": ".card { position: absolute; left: 128px;",
+  },
+]
+`;
