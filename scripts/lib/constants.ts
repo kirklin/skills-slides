@@ -35,3 +35,9 @@ export const LAYOUTS = [
   "code",
   "closing",
 ] as const;
+
+export const CANVAS_WIDTH = 1920;
+export const CANVAS_HEIGHT = 1080;
+export const SCALE = 2;
+
+export const DEFAULT_CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";

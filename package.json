@@ -12,6 +12,9 @@
     "typecheck": "tsc",
     "test": "vitest run"
   },
+  "dependencies": {
+    "puppeteer-core": "catalog:prod"
+  },
   "devDependencies": {
     "@kirklin/eslint-config": "catalog:dev",
     "@types/node": "catalog:dev",
