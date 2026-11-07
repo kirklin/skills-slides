@@ -25,6 +25,7 @@ description: "演示配图：把方案、汇报、立项材料和文档里的内
 | 风格 | 英文名 | 适用场景 | 规范 |
 |-|-|-|-|
 | 黑底发布会风格 | `launch-dark` | 立项、方案汇报、投屏讲解 | [`kirklin-slides-style-launch-dark.md`](references/kirklin-slides-style-launch-dark.md) |
+| 白底瑞士风格 | `swiss-light` | 方案汇报、数据分析、需要打印的材料 | [`kirklin-slides-style-swiss-light.md`](references/kirklin-slides-style-swiss-light.md) |
 
 样例页位于 `assets/pages/`，各风格的样式文件位于 `assets/styles/<英文名>/style.css`。执行 `node <skill 目录>/scripts/preview-style.ts <英文名> 汇总图.png`，可生成一种风格全部样例的汇总图。
 
@@ -124,6 +125,7 @@ description: "演示配图：把方案、汇报、立项材料和文档里的内
 | [`kirklin-slides-workflow.md`](references/kirklin-slides-workflow.md) | 制作流程和脚本用法 |
 | [`kirklin-slides-new-style.md`](references/kirklin-slides-new-style.md) | 增加新风格 |
 | [`kirklin-slides-style-launch-dark.md`](references/kirklin-slides-style-launch-dark.md) | 黑底发布会风格 |
+| [`kirklin-slides-style-swiss-light.md`](references/kirklin-slides-style-swiss-light.md) | 白底瑞士风格 |
 | `assets/pages/` | 27 种版式的共用样例页 |
 | `assets/styles/` | 各风格的样式 |
 | `scripts/use-style.ts` | 为项目设置风格 |

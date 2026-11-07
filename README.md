@@ -52,6 +52,7 @@ Skill 提供 27 种常见版式的样例页、所有风格共用的组件和文�
 | 风格 | 英文名 | 适用场景 |
 |-|-|-|
 | 黑底发布会风格 | `launch-dark` | 立项、方案汇报、投屏讲解 |
+| 白底瑞士风格 | `swiss-light` | 方案汇报、数据分析、需要打印的材料 |
 
 增加新风格的方法参见 [`references/kirklin-slides-new-style.md`](references/kirklin-slides-new-style.md)。
 
