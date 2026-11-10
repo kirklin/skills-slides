@@ -1,7 +1,7 @@
 ---
 name: kirklin-slides
 version: 1.0.0
-description: "演示配图：把方案、汇报、立项材料和文档里的内容做成 16:9 的图片，每页是一个 1920×1080 的 HTML 页面，用无头浏览器渲染成 3840×2160 的 PNG。包括 27 种常见版式的共用样例页（封面、目录、要点、数字、表格、各类图表、时间轴、流程、团队、代码、结束页等）、所有风格通用的组件和文字规范、可以继续增加的多种风格，以及创建、渲染、检查、导出和截取帖子的 TypeScript 脚本。当用户需要给文档做配图、做幻灯片那样的图，改、补、检查、导出这类配图，或者要把一套新的配图风格加进来时使用。不负责 .pptx 文件、在线幻灯片、海报和文档正文。"
+description: "演示配图：把方案、汇报、立项材料和文档里的内容做成 16:9 的图片，每页是一个 1920×1080 的 HTML 页面，用无头浏览器渲染成 3840×2160 的 PNG。包括 28 种常见版式的共用样例页（封面、目录、要点、数字、表格、各类图表、时间轴、流程、团队、代码、结束页等）、所有风格通用的组件和文字规范、可以继续增加的多种风格，以及创建、渲染、检查、导出和截取帖子的 TypeScript 脚本。当用户需要给文档做配图、做幻灯片那样的图，改、补、检查、导出这类配图，或者要把一套新的配图风格加进来时使用。不负责 .pptx 文件、在线幻灯片、海报和文档正文。"
 ---
 
 # 演示配图
@@ -10,7 +10,7 @@ description: "演示配图：把方案、汇报、立项材料和文档里的内
 
 **CRITICAL — 制作任何一页之前，MUST 先用 Read 工具读取以下规范：**
 1. [`kirklin-slides-copy.md`](references/kirklin-slides-copy.md)：文字规范，适用于所有风格
-2. [`kirklin-slides-layouts.md`](references/kirklin-slides-layouts.md)：27 种版式的内容和排版规则
+2. [`kirklin-slides-layouts.md`](references/kirklin-slides-layouts.md)：28 种版式的内容和排版规则
 3. [`kirklin-slides-components.md`](references/kirklin-slides-components.md)：页面结构和组件类名
 4. 所选风格的规范：颜色、字号和各版式的尺寸，文件位置参见风格列表
 5. 创建、渲染、检查、重新编号、导出、预览风格和截取帖子之前，必读 [`kirklin-slides-workflow.md`](references/kirklin-slides-workflow.md)。
@@ -71,6 +71,7 @@ description: "演示配图：把方案、汇报、立项材料和文档里的内
 | 成员和分工 | 团队 |
 | 合作方 | 标志墙 |
 | 一段代码 | 代码 |
+| 上下分层的系统结构 | 分层结构 |
 
 ## 核心边界
 
@@ -126,7 +127,7 @@ description: "演示配图：把方案、汇报、立项材料和文档里的内
 | [`kirklin-slides-new-style.md`](references/kirklin-slides-new-style.md) | 增加新风格 |
 | [`kirklin-slides-style-launch-dark.md`](references/kirklin-slides-style-launch-dark.md) | 黑底发布会风格 |
 | [`kirklin-slides-style-swiss-light.md`](references/kirklin-slides-style-swiss-light.md) | 白底瑞士风格 |
-| `assets/pages/` | 27 种版式的共用样例页 |
+| `assets/pages/` | 28 种版式的共用样例页 |
 | `assets/styles/` | 各风格的样式 |
 | `scripts/use-style.ts` | 为项目设置风格 |
 | `scripts/add-page.ts` | 按版式复制一页样例 |
