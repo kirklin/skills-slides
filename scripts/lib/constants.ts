@@ -34,6 +34,7 @@ export const LAYOUTS = [
   "posts",
   "logos",
   "code",
+  "layers",
   "closing",
 ] as const;
 
