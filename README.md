@@ -4,14 +4,14 @@
 
 kirklin-slides 是一个供 AI Agent 使用的 Skill，可以把方案、汇报、立项材料等文档中的内容做成 16:9 的演示配图。
 
-Skill 提供 27 种常见版式的样例页、所有风格共用的组件和文字规范、可以继续增加的风格，以及创建、渲染、检查、导出配图和截取社交媒体帖子的 TypeScript 脚本。
+Skill 提供 28 种常见版式的样例页、所有风格共用的组件和文字规范、可以继续增加的风格，以及创建、渲染、检查、导出配图和截取社交媒体帖子的 TypeScript 脚本。
 
 
 ## 版式
 
-27 种版式的样例页如下图所示，按从左到右、从上到下的顺序排列，页面上的文字全部是占位文字。
+28 种版式的样例页如下图所示，按从左到右、从上到下的顺序排列，页面上的文字全部是占位文字。
 
-<p align="center"><img src="README.assets/layouts.png" alt="27 种版式的样例页"></p>
+<p align="center"><img src="README.assets/layouts.png" alt="28 种版式的样例页"></p>
 
 各版式的适用内容如下表，每种版式的内容和排版规则参见 [`references/kirklin-slides-layouts.md`](references/kirklin-slides-layouts.md)。
 
@@ -43,6 +43,7 @@ Skill 提供 27 种常见版式的样例页、所有风格共用的组件和文�
 | 截图 | posts | 社交媒体帖子或网页截图 |
 | 标志墙 | logos | 合作方、客户等标志 |
 | 代码 | code | 一段关键代码和说明 |
+| 分层结构 | layers | 三到五层的系统结构，以及每层包含的模块 |
 | 结束页 | closing | 结束语和联系方式 |
 
 ## 风格
@@ -110,7 +111,7 @@ node $SKILL/scripts/check-pages.ts slides/pages
 |-|-|
 | `SKILL.md` | Skill 的入口，列出必读的规范、快速决策和检查清单 |
 | `references/` | 文字规范、版式目录、页面结构和组件、制作流程、增加新风格和各风格的规范 |
-| `assets/pages/` | 27 种版式的共用样例页 |
+| `assets/pages/` | 28 种版式的共用样例页 |
 | `assets/styles/` | 各风格的样式文件 |
 | `scripts/` | 命令行脚本，逻辑和测试在 `scripts/lib/` |
 | `README.assets/` | README 使用的图片 |
